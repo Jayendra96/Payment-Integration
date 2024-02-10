@@ -4,7 +4,7 @@ div.addEventListener("click", function(event){
         var amount = event.target.value;
         let paybutton = event.target;
         var options = {
-            "key": "rzp_live_oPoBN9pYrroCnv",
+            "key": "rzp_test_Q0YG8kegTRkqhR",
             "amount": amount*100,
             "currency": "INR",
             "name": "Jayendra Prakash",
