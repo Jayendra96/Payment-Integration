@@ -1,32 +1,30 @@
 * {
-    background-color: black;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
-.white-box {
-    background-color: white;
+.products {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 220px;
+}
+
+.item img {
     width: 200px;
     height: 200px;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    border: 1px solid red;
+    display: block; 
+    margin: 0 auto; 
 }
 
-.white-box::before {
-    content: ''; /* Adding content property */
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    /* Removed position: absolute */
-    /* Removed top: 0; */
-    /* Removed left: 0; */
-    display: block;
+.item p {
+    text-align: center;
+    margin: 10px 0;
 }
 
-.white-box p {
-    /* position: relative; */
-    color: aliceblue;
-    /* This makes the paragraph positioned relatively */
+.item .button {
+    text-align: center;
 }
