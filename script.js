@@ -1,13 +1,13 @@
-let div = document.querySelector(".products");
+let div = document.querySelector(".gearServices");
 div.addEventListener("click", function(event){
     if(event.target.nodeName=="BUTTON"){
         var amount = event.target.value;
         let paybutton = event.target;
         var options = {
-            "key": "rzp_test_Q0YG8kegTRkqhR",
+            "key": "rzp_live_xvFqafqATngIRs",
             "amount": amount*100,
             "currency": "INR",
-            "name": "Jayendra Prakash",
+            "name": "@AutoMobilesBooking",
             "description": "Test Transaction",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkQ2jSs2AaF1eCi7xQPSNSW_tJglCaNtJbJg&usqp=CAU",
             "handler": function (response){

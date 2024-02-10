@@ -3,36 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Integeration</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Payment Integration</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="products">
-        <div class="item">
-            <img src="data:image/webp;base64,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" alt="not loaded">
-            <p>T-Shirt</p>
-            <h2>Amount:-- 500  &#8377;</h2>
-            <div class="button"><button value="500">Pay Now</button></div>
+    <header>
+        
+      <nav class="navbar">
+          
+        <h2 class="logo"><a href="#">LOGO</a></h2>
+  
+          <ul id="nav_right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        
+        </nav>
+      
+      </header>
+    
+      <section class="mainpage" id="home">
+        
+        <div class="main-content">
+        
+          <div class="text">
+        
+            <h1>Camping Gear and Essentials</h1>
+        
+            <p>
+        
+              Discover top-quality camping gear for unforgettable outdoor adventures. <br> Gear up and make lasting memories.</p>
+        
+            </div>
+        
+            <a href="#services">OUR SERVICES</a>
+        
+          </div>
+      
+        </section>
+  
+      <section class="services" id="services">
+ 
+        <h2>Our Services</h2>
+ 
+        <p>Explore our wide range of camping gear services.</p>
+ 
+        <ul class="gearServices">
+ 
+          <li class="Imgdes">
+            <img src="https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/bikelisting/pulsar/p-n-160.png" alt="img">
+            <h3>BAJAJ DISCOVER</h3>
+            <p>Amount &#x21d2 1,400 &#8377;</p>
+            <div class="button"><button value="1400">Pay Now</button></div>
+            </div>
+          </li>
+ 
+          <li class="Imgdes">
+            <img src="https://www.bmw-motorrad.in/content/dam/bmwmotorradnsc/marketIN/bmw-motorrad_in/images/BMW-website-600x360-S-1000-RR.jpg.asset.1686660374063.jpg" alt="img">
+            <h3>BMW 970R</h3>
+            <p>Amount &#x21d2 4,800&#8377;</p>
+            <div class="button"><button value="4800">Pay Now</button></div>
+            </div>
+          </li>
+ 
+          <li class="Imgdes">
+            <img src="https://i.pinimg.com/736x/45/20/fc/4520fc323ed96859b19de91b9e1c91e2.jpg" alt="img">
+            <h3>TVS APACHE RTR</h3>
+            <p>Amount &#x21d2 1,800&#8377;</p>
+            <div class="button"><button value="1800">Pay Now</button></div>
+            </div>
+          </li>
+ 
+          <li class="Imgdes">
+            <img src="https://images.ctfassets.net/uwf0n1j71a7j/43c2KOd9EmYoXigm72HrBo/43abec7a219b215af1c598f43b73acef/famous-bikes-in-india.png" alt="img">
+            <h3>Royal Enfield Classic 350</h3>
+            <p>Amount &#x21d2 3,200&#8377;</p>
+            <div class="button"><button value="3200">Pay Now</button></div>
+            </div>
+          </li>
+ 
+          <li class="Imgdes">
+            <img src="https://i.pinimg.com/originals/7d/1c/68/7d1c685a4e1ccec070f0dedb36c2cb4d.jpg" alt="img">
+            <h3>YAMAHA FASCINO 125</h3>
+            <p>Amount &#x21d2 900&#8377;</p>
+            <div class="button"><button value="900">Pay Now</button></div>
+            </div>
+          </li>
+ 
+          <li class="Imgdes">
+            <img src="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/yezdi-roadster-dark.jpg" alt="img">
+            <h3>YEZDI ROADSTER</h3>
+            <p>Amount &#x21d2 2,300&#8377;</p>
+            <div class="button"><button value="2300">Pay Now</button></div>
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+  
+      <section class="about" id="about">
+
+        <h2>About Us</h2>
+        <p>Discover our story in providing camping services.</p>
+
+        <div class="row our-story">
+          <h3>Our Story</h3>
+          <p>Experience the excellence of our camping gear and services, where we have been offering high-quality camping essentials and gear for outdoor enthusiasts for over a decade. Our commitment to quality and customer satisfaction ensures that every adventurer can rely on us for their camping needs.</p>
         </div>
-        <div class="item" class="btn" value="1500">
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRoZnO7QBSsybbIp24umopjQO1K12MJumdmqWMrSrZylpkhCofybk9RpWc7dM8U1FgTSkDIT_zuynQvCgGYLZCtGTITk308qx8H_vgWGjkfbY9Z56y8c60fxa1TO0psl2J26ag7R1U&usqp=CAc">
-            <p>Shoes</p>
-            <h2>Amount:-- 1500  &#8377;</h2>
-            <div class="button"><button value="1500">Pay Now</button></div>
-            </div>
-        <div class="item" value="1000">
-            <img src="data:image/jpeg;base64,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">
-            <p>Glasses</p>
-            <h2>Amount:-- 1000  &#8377;</h2>
-            <div class="button"><button type="submit"  value="1000">Pay Now</button></div>
-            </div>
-    </div>
-  </div>
 
+        <div class="row mission-vision">
+          <h3>Our Mission</h3>
+          <p>At Camping Gear Experts, our mission is to equip outdoor enthusiasts with top-notch camping gear and essentials that enhance their outdoor experiences. We strive to provide reliable, durable, and innovative products that contribute to memorable adventures and lasting memories.</p>
+          <h3>Our Vision</h3>
+          <p>Our vision is to become the go-to destination for camping enthusiasts, known for our extensive selection of premium camping gear and exceptional customer service. We aspire to inspire and enable people to embrace the beauty of nature and create unforgettable camping experiences.</p>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="row team">
+  
+          <h3>Our Team</h3>
+  
+          <ul>
+            <li>John Doe - Founder and CEO</li>
+            <li>Jane Smith - Gear Specialist</li>
+            <li>Mark Johnson - Customer Representative</li>
+            <li>Sarah Brown - Operations Manager</li>
+          </ul>
+  
+        </div>
+  
+      </section>
+  
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for any inquiries or feedback.</p>
+        <div class="row">
+  
+          <div class="col information">
+  
+            <div class="contact-details">
+              <p><i class="fas fa-map-marker-alt"></i> 123 Campsite Avenue, Wilderness, CA 98765</p>
+              <p><i class="fas fa-envelope"></i> info@campinggearexperts.com</p>
+              <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+              <p><i class="fas fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+              <p><i class="fas fa-clock"></i> Saturday: 10:00 AM - 3:00 PM</p>
+              <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+              <p><i class="fas fa-globe"></i> www.codingnepalweb.com</p>
+            </div>          
+  
+          </div>
+  
+          <div class="col form">
+  
+            <form>
+              <input type="text" placeholder="Name*" required>
+              <input type="email" placeholder="Email*" required>
+              <textarea placeholder="Message*" required></textarea>
+              <button id="submit" type="submit">Send Message</button>
+            </form>
+  
+          </div>
+  
+        </div>
+  
+      </section>
+
+      <script src="script.js"></script>
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-</body>
+    </body>
 </html>
