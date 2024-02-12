@@ -10,7 +10,7 @@ div.addEventListener("click", function(event){
             "description": "Test Transaction",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkQ2jSs2AaF1eCi7xQPSNSW_tJglCaNtJbJg&usqp=CAU",
             "handler": function (response){
-                alert('Payment ID: ' + response.razorpay_payment_id);
+                alert('Payment Successfull \nPayment ID: ' + response.razorpay_payment_id);
             },
             "prefill": {
                 "name": "Jayendra Prakash",
