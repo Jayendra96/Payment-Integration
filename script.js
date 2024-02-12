@@ -1,10 +1,9 @@
 let div = document.querySelector(".gearServices");
 div.addEventListener("click", function(event){
-    if(event.target.nodeName=="BUTTON"){
-        var amount = event.target.value;
-        let paybutton = event.target;
+    if(event.target.nodeName=="SPAN"){
+        var amount = event.target.attributes.value.value;
         var options = {
-            "key": "rzp_live_xvFqafqATngIRs",
+            "key": "rzp_test_Q0YG8kegTRkqhR",
             "amount": amount*100,
             "currency": "INR",
             "name": "@AutoMobilesBooking",
@@ -27,6 +26,5 @@ div.addEventListener("click", function(event){
         };
         var rzp = new Razorpay(options);
         rzp.open();
-        console.log(amount);
     }
 });
