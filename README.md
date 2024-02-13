@@ -51,5 +51,5 @@ For any inquiries or support regarding this project, feel free to reach out:
 
 ## Email: jayendraprakash733@gmail.com
 
-## Feel free to customize the sections further or add any additional information that you think would be relevant for users or developers who come across your project.
+ Feel free to customize the sections further or add any additional information that you think would be relevant for users or developers who come across your project.
 
