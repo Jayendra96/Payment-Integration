@@ -41,9 +41,15 @@ Complete the payment process using the provided test key (for frontend demonstra
 Upon successful payment, users will receive confirmation of their booking.
 Just so you know, this project uses a test key for payment integration, since it focuses solely on the frontend aspect. For production use, a live key would be implemented for secure transactions.
 
+
 **Contact**
+
 For any inquiries or support regarding this project, feel free to reach out:
 
-**Developer: Jayendra Prakash
-Email: jayendraprakash733@gmail.com
-Feel free to customize the sections further or add any additional information that you think would be relevant for users or developers who come across your project.**
+
+## Developer: Jayendra Prakash
+
+## Email: jayendraprakash733@gmail.com
+
+## Feel free to customize the sections further or add any additional information that you think would be relevant for users or developers who come across your project.
+
