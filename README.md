@@ -6,7 +6,9 @@ This webpage allows users to book vehicles for traveling purposes. Users can sel
 
 **Features**
 Vehicle Booking: Users can browse through available vehicles and select the one that suits their needs for travel.
+
 Payment Integration: Razorpay payment integration is utilized for secure and convenient online payments.
+
 User Interface: The UI is designed to provide easy navigation and display essential information about the company. Contact details are also provided for further inquiries.
 Usage
 Visit the hosted link: **https://jayendra96.github.io/Payment-Integration/**
