@@ -21,6 +21,7 @@ This webpage allows users to book vehicles for traveling purposes. Users can sel
 
 
 Users can browse through available vehicles and select the one that suits their needs for travel.
+
 2.) 
 **Payment Integration**: 
 
