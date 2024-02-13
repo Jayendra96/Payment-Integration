@@ -15,13 +15,20 @@ This project is a part of the Geekathon conducted by Geekster. The goal of this 
 ## Overview
 This webpage allows users to book vehicles for traveling purposes. Users can select a vehicle of their choice and proceed to pay using any payment method they want.
 
-##Features
+## Features
 1.) **Vehicle Booking:**
+
+
 Users can browse through available vehicles and select the one that suits their needs for travel.
 2.) **Payment Integration**: 
+
+
 3.)Razorpay payment integration is utilized for secure and convenient online payments.
-4.)**User Interface:** The UI is designed to provide easy navigation and display essential information about the company. Contact details are also provided for further inquiries.
+
+4.)**User Interface:**
+The UI is designed to provide easy navigation and display essential information about the company. Contact details are also provided for further inquiries.
 Usage
+
 Visit the hosted link: **https://jayendra96.github.io/Payment-Integration/**
 
 Please navigate through the webpage to explore available vehicles and their details.
