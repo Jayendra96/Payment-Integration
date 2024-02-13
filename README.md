@@ -27,8 +27,9 @@ Users can browse through available vehicles and select the one that suits their 
 
 Razorpay payment integration is utilized for secure and convenient online payments.
 
-4.)
+3.)
 **User Interface:**
+
 The UI is designed to provide easy navigation and display essential information about the company. Contact details are also provided for further inquiries.
 Usage
 
